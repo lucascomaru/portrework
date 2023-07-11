@@ -1,0 +1,35 @@
+.inicio-react-developer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2mm;
+}
+  
+.inicio-react {
+    font-size: 200px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+  
+.inicio-developer {
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+  
+.inicio-description-container {
+    display: flex;
+    align-items: center;
+}
+  
+.inicio-description {
+    margin-right: 10px;
+}
+  
+.inicio-description-right {
+    flex-grow: 1;
+    text-align: right;
+}
+  
