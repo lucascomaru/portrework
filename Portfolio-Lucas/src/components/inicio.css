@@ -1,35 +1,78 @@
-.inicio-react-developer {
+body {
+    background-color: #402960;
+    background-image: linear-gradient(45deg, #402960, #584f75);
+    color: white;
+}
+
+.meu-inicio-section .inicio-react-developer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2mm;
+    gap: 0;
 }
-  
-.inicio-react {
-    font-size: 200px;
+
+.inicio-greeting {
+    text-align: left;
+    margin-bottom: 30px;
+    align-self: flex-start;
+    position: relative;
+    top: 50px;
+}
+
+
+
+.inicio-greeting-text {
+    font-size: 20px;
+    margin-left: -5px;
+    margin-top: 60px;
+}
+
+
+.inicio-front-icons-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.inicio-front {
+    font-size: 150px;
     font-weight: bold;
     margin: 0;
     padding: 0;
+    line-height: 1;
+    margin-right: 200px;
 }
-  
-.inicio-developer {
-    font-size: 100px;
+
+.inicio-icons-front {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin-top: 115px;
+}
+
+.inicio-dev-description-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.inicio-dev {
+    font-size: 150px;
     font-weight: bold;
     margin: 0;
     padding: 0;
+    line-height: 1;
+    margin-left: 500px;
 }
-  
+
 .inicio-description-container {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
 }
-  
+
 .inicio-description {
-    margin-right: 10px;
+    margin: 2px 0 0;
 }
-  
-.inicio-description-right {
-    flex-grow: 1;
-    text-align: right;
-}
-  
