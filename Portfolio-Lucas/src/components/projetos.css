@@ -1,65 +1,58 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom, #402960, #ffffff);
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .projetos-section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .projetos-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 40px;
-  }
-  
-  .projeto {
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .projeto img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-  }
-  
-  .projeto-details {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .projeto-details h3,
-  .projeto-details p {
-    margin: 0;
-  }
-  
-  .projeto:hover {
-    transform: scale(1.05);
-  }
-  
-  .projeto:hover .projeto-details {
-    opacity: 1;
-  }
-  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projetos-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projetos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.projeto {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projeto img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.projeto-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.projeto-details h3,
+.projeto-details p {
+  margin: 0;
+}
+
+.projeto:hover {
+  transform: scale(1.05);
+}
+
+.projeto:hover .projeto-details {
+  opacity: 1;
+}

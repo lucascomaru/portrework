@@ -1,8 +1,26 @@
-body {
+#inicio {
     background-color: #402960;
     background-image: linear-gradient(45deg, #402960, #584f75);
     color: white;
-}
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #projetos {
+    background-color: #f7f7f7;
+    /* Outras propriedades de estilo para a seção de projetos */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
 
 .meu-inicio-section .inicio-react-developer {
     display: flex;

@@ -1,4 +1,4 @@
-#root {
+body#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -6,5 +6,17 @@
 }
 .meu-inicio-section .inicio-react-developer {
   gap: 2mm;
+}
+
+.inicio-section {
+  height: 910px; 
+  width: 100vw;
+  background-color: #402960;
+}
+
+
+.projetos-section {
+  height: 910px; /* Ajuste o valor conforme necessário */
+  background-color: #850e0e;
 }
 
