@@ -1,9 +1,12 @@
-
 import './inicio.css';
+
+function abrirURL(url) {
+  window.open(url, '_blank');
+}
 
 const Inicio = () => {
   return (
-    <section id="inicio" className="section inicio-section meu-inicio-section">
+    <section id="inicio" className="section inicio-section meu-inicio-section" style={{ minHeight: '80vh', display: 'flex', alignItems: 'center' }}>
       <div className="container">
         <div className="inicio-content">
           <div className="inicio-greeting">
@@ -13,9 +16,9 @@ const Inicio = () => {
             <div className="inicio-front-icons-container">
               <h3 className="inicio-front">FRONTEND</h3>
               <div className="inicio-icons-front">
-                <img src="#" alt="Ícone 1" />
-                <img src="#" alt="Ícone 2" />
-                <img src="#" alt="Ícone 3" />
+                <img src="/github.png" alt="Ícone 1" id="icone-1" onClick={() => abrirURL('https://github.com')} />
+                <img src="/linkedin.png" alt="Ícone 2" id="icone-2" onClick={() => abrirURL('https://linkedin.com')} />
+                <img src="/whatsapp.png" alt="Ícone 3" id="icone-3" onClick={() => abrirURL('https://whatsapp.com')} />
               </div>
             </div>
             <div className="inicio-dev-container">

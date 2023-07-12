@@ -1,5 +1,6 @@
 import './App.css'
 import Inicio from './components/inicio'
+import Projetos from './components/projetos'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
     <Inicio/>
+    <Projetos/>
       
     </>
   )
