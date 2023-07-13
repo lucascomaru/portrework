@@ -9,14 +9,17 @@ body#root {
 }
 
 .inicio-section {
-  height: 910px; 
+  height: 910px;
   width: 100vw;
-  background-color: #402960;
+  background: linear-gradient(to bottom, rgba(64, 41, 96, 1), rgba(255, 255, 255, 0.2));
 }
-
 
 .projetos-section {
-  height: 910px; /* Ajuste o valor conforme necessário */
-  background-color: #850e0e;
+  height: 910px;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), #dfb4e7);
 }
+
+
+
 
