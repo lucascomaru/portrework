@@ -50,6 +50,14 @@
   margin: 0;
 }
 
+.projeto-details h3 {
+  font-size: 40px; 
+  font-weight: bold;
+  font-family:  'Playfair Display', serif;
+  margin-bottom: 50px;
+}
+
+
 .projeto:hover {
   transform: scale(1.05);
 }
