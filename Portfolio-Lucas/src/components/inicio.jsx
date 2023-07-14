@@ -30,7 +30,6 @@ const Inicio = () => {
           </div>
         </div>
       </div>
-      <div className="bolinhas"></div>
     </section>
   );
 };
