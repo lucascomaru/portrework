@@ -1,6 +1,7 @@
 import './App.css';
 import Inicio from './components/inicio';
 import Projetos from './components/projetos';
+import Servicos from './components/servicos';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       </div>
       <div className="projetos-section">
         <Projetos />
+      </div>
+      <div className="servicos-section">
+        <Servicos />
       </div>
     </div>
   );

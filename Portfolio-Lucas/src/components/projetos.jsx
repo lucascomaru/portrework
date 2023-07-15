@@ -7,7 +7,7 @@ const Projetos = () => {
       name: 'DjangoFlix',
       description: 'Um projeto muito bom que emula a criação do netflix, é muito brabo mesmo',
       website: 'https://projeto1.com',
-      image: '/2396.jpg',
+      image: '/Djangoflixof.png',
       techs: 'React, Typescript, Styled',
     },
     {
