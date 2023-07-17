@@ -5,24 +5,24 @@ const Projetos = () => {
   const projects = [
     {
       name: 'DjangoFlix',
-      description: 'Um projeto muito bom que emula a criação do netflix, é muito brabo mesmo',
+      description: 'É um projeto de criação de uma cópia do Netflix usando o framework Django.',
       website: 'https://projeto1.com',
       image: '/Djangoflixof.png',
-      techs: 'React, Typescript, Styled',
+      techs: 'Python,HTML,CSS',
     },
     {
       name: 'Secret Word',
       description: 'Descrição do Projeto 2',
       website: 'https://projeto2.com',
       image: '/projeto2.jpg',
-      techs: 'React, Typescript, HowlerJs',
+      techs: 'React, HTML, CSS',
     },
     {
       name: 'Projeto 3',
       description: 'Descrição do Projeto 3',
       website: 'https://projeto3.com',
       image: '/projeto3.jpg',
-      techs: 'React, JavaScript, IGDB Api',
+      techs: 'React, JavaScript, HTML',
     },
   ];
 
