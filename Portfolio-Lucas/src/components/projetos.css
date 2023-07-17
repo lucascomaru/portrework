@@ -24,7 +24,9 @@
   cursor: pointer;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
+  border-radius: 50px; 
 }
+
 
 .projeto img {
   width: 100%;

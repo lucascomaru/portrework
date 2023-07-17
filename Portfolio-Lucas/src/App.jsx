@@ -1,4 +1,5 @@
 import './App.css';
+import Contato from './components/contato';
 import Inicio from './components/inicio';
 import Projetos from './components/projetos';
 import Servicos from './components/servicos';
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div className="servicos-section">
         <Servicos />
+      </div>
+      <div className="contato-section">
+        <Contato />
       </div>
     </div>
   );
