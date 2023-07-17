@@ -1,0 +1,83 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center; 
+}
+
+.contato-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.quadrado-roxo {
+    background-color: purple;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.localizacao,
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.localizacao img,
+.redes-sociais a {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quadrado-email {
+    background-color: purple;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.email {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
+
+.botao-copiar {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-copiar:hover {
+    background-color: rgba(0, 128, 0, 0.8);
+}
+
+.icone-social {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.icone-social:hover {
+    transform: scale(1.1);
+}
