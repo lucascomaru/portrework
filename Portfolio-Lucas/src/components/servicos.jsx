@@ -8,21 +8,21 @@ const Servicos = () => {
         <img src="./design.png" alt="UI/UX" height="80px" width="80px" />
         <h2>UI - UX</h2>
         <p>
-          Crio interfaces intuitivas e impactantes, garantindo uma experiência clara e objetiva para os usuários.
+          Crio interfaces intuitivas e impactantes, garantindo uma experiência clara e <p>objetiva para os usuários.</p>
         </p>
       </div>
       <div className="habilidade">
         <img src="desenvolvimento.png" alt="Desenvolvimento" height="80px" width="80px" />
         <h2>Desenvolvimento</h2>
         <p>
-          Desenvolvo sites profissionais, blogs, portfólios, aplicativos, landing pages e e-commerce.
+          Desenvolvo sites profissionais, blogs, portfólios, aplicativos, landing pages<p> e e-commerce.</p>  
         </p>
       </div>
       <div className="habilidade">
         <img src="./monitor.png" alt="Ícone de Frontend" height="80px" width="80px" />
         <h2>Frontend</h2>
         <p>
-          Com habilidades em HTML, CSS, JavaScript e frameworks front-end, posso projetar e desenvolver interfaces intuitivas, otimizadas e atraentes.
+          Com habilidades em HTML, CSS, JavaScript e frameworks front-end <p>, posso projetar e desenvolver interfaces intuitivas, otimizadas e atraentes.</p>
         </p>
       </div>
     </div>

@@ -14,14 +14,14 @@ const Projetos = () => {
       name: 'Secret Word',
       description: 'Descrição do Projeto 2',
       website: 'https://projeto2.com',
-      image: '/projeto2.jpg',
+      image: '/game3.jpg',
       techs: 'React, HTML, CSS',
     },
     {
       name: 'Projeto 3',
       description: 'Descrição do Projeto 3',
       website: 'https://projeto3.com',
-      image: '/projeto3.jpg',
+      image: '/game4.jpg',
       techs: 'React, JavaScript, HTML',
     },
   ];
@@ -41,9 +41,9 @@ const Projetos = () => {
   };
 
   return (
-    <section id="projetos" className="section projetos-section">
+    <section id="projetos" className="projetos-section">
       <div className="container">
-        <h1>PROJETOS</h1>
+        <h1 className="titulo-projetos">PROJETOS</h1>
         <p>Uma seleção dos meus projetos práticos favoritos! 😃</p>
         <div className="projetos-grid">
           {projects.map((project, index) => (
