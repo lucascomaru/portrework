@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #f2f2f2;
 }
 
@@ -21,7 +21,7 @@
 
 .titulo-habilidades {
     font-size: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     color: #333333;
@@ -30,6 +30,7 @@
 .lista-soft-skills {
     list-style-type: none;
     padding: 0;
+    margin-bottom: 50px;
 }
 
 .lista-soft-skills li {
@@ -45,6 +46,7 @@
     justify-items: center;
     align-items: center;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 .icones-hard-skills img {
@@ -55,4 +57,35 @@
 
 .icones-hard-skills img:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+.habilidades-container {
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+}
+
+.half-container {
+    width: 100%;
+}
+
+.titulo-habilidades {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.lista-soft-skills {
+    margin-bottom: 30px;
+}
+
+.icones-hard-skills {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.icones-hard-skills img {
+    width: 60px;
+    height: 60px;
+}
 }
