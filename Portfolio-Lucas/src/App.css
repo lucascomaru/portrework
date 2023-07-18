@@ -3,7 +3,9 @@ body#root {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  overflow-x: hidden;
 }
+
 .meu-inicio-section .inicio-react-developer {
   gap: 2mm;
 }
@@ -17,10 +19,41 @@ body#root {
 .projetos-section {
   height: 910px;
   width: 100vw;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), #dfb4e7);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), #87c5ff);
 }
 
 
+.habilidades-container {
+  height: 910px;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), #f6b2b2);
+}
 
+.servicos-container {
+  height: 910px;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), #a2c7f2);
+}
 
+.sobre-container {
+  height: 910px;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), #c1d99f);
+}
+
+.contato-section {
+  height: 910px;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), #f7ca88);
+}
+@media (max-width: 768px) {
+  .projetos-section,
+  .habilidades-container,
+  .servicos-container,
+  .sobre-container,
+  .contato-section {
+    height: auto;
+    min-height: 100vh;
+  }
+}
 
