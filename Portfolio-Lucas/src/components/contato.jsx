@@ -51,7 +51,7 @@ function Contato() {
             <div className="quadrado-email">
               <p className="email">lucascomaru20@gmail.com</p>
             </div>
-            <div className="button-container"> {/* Novo elemento para isolar o botão */}
+            <div className="button-container"> 
               <button className={`btn ${copied ? "email-copiado" : ""}`} onClick={handleCopyEmail}>
                 {copied ? "E-mail Copiado" : "Copiar E-mail"}
               </button>
