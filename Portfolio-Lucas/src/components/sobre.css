@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
+    text-justify: auto;
 }
 
 .texto h1 {

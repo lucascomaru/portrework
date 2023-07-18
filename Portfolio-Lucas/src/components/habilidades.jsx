@@ -13,7 +13,6 @@ const Habilidades = () => {
           <li>Inteligência Emocional</li>
         </ul>
       </div>
-      <div className="divisao-linha"></div>
       <div className="half-container hard-skills">
         <h1 className="titulo-habilidades">Hard Skills</h1>
         <div className="icones-hard-skills">
