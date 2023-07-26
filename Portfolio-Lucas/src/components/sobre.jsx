@@ -21,7 +21,7 @@ const Sobre = () => {
         </p>
       </div>
       <div className="foto">
-        <img src='./fotolucas.jpg' alt="Minha Foto" />
+        <img src='./foto2.jpg' alt="Minha Foto" />
       </div>
     </div>
   );

@@ -5,25 +5,26 @@ const Projetos = () => {
   const projects = [
     {
       name: 'DjangoFlix',
-      description: 'É um projeto de criação de uma cópia do Netflix usando o framework Django.',
-      website: 'https://projeto1.com',
+      description: 'O projeto é uma criação de uma plataforma de streaming de trailers de filmes e séries, semelhante ao Netflix, desenvolvida utilizando o framework Django. Ele permite aos usuários explorarem e assistirem trailers de diferentes conteúdos.',
+      website: 'https://djangoflixbr.herokuapp.com/',
       image: '/Djangoflixof.png',
       techs: 'Python,HTML,CSS',
     },
     {
-      name: 'Secret Word',
-      description: 'Descrição do Projeto 2',
-      website: 'https://projeto2.com',
-      image: '/game3.jpg',
-      techs: 'React, HTML, CSS',
-    },
-    {
-      name: 'Projeto 3',
-      description: 'Descrição do Projeto 3',
-      website: 'https://projeto3.com',
-      image: '/game4.jpg',
+      name: 'Quebra Cabeças',
+      description: 'Desenvolvi um jogo de quebra-cabeças com temática de animes usando React.',
+      website: 'https://piecegame-gepqeiawe-lucascomaru.vercel.app/',
+      image: '/rsz_2animes.png',
       techs: 'React, JavaScript, HTML',
     },
+    {
+      name: 'Secret Word',
+      description: 'O projeto é um jogo de adivinhação onde os jogadores chutam letras para adivinhar uma palavra. Se eles acertarem, eles acumulam pontos.',
+      website: 'https://secretword-mu.vercel.app/',
+      image: '/rsz_secretwooord.png',
+      techs: 'React, HTML, CSS',
+    },
+    
   ];
 
   const [projectDetails, setProjectDetails] = useState(null);
