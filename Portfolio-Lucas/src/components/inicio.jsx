@@ -14,7 +14,7 @@ const Inicio = () => {
           </div>
           <div className="inicio-react-developer">
             <div className="inicio-front-icons-container">
-              <h3 className="inicio-front">FRONTEND</h3>
+              <h3 className="inicio-front">SOFTWARE</h3>
               <div className="inicio-icons-front">
                 <img src="/github.png" alt="Ícone 1" id="icone-1" onClick={() => abrirURL('https://github.com')} />
                 <img src="/linkedin.png" alt="Ícone 2" id="icone-2" onClick={() => abrirURL('https://linkedin.com')} />
