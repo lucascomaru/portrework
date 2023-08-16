@@ -5,24 +5,24 @@ const Servicos = () => {
     <div className="servicos-container">
       <h1 className="titulo-serv">Serviços</h1> 
       <div className="habilidade">
-        <img src="./design.png" alt="UI/UX" height="80px" width="80px" />
-        <h2>UI - UX</h2>
+        <img src="./joystick.png" alt="UI/UX" height="80px" width="80px" />
+        <h2>Desenvolvimento de jogos Unity</h2>
         <p>
-          Crio interfaces intuitivas e impactantes, garantindo uma experiência clara e <p>objetiva para os usuários.</p>
+        Criação de jogos interativos e envolventes usando a Unity,<p>incluindo design, programação, física e integração de assets.</p>
         </p>
       </div>
       <div className="habilidade">
-        <img src="desenvolvimento.png" alt="Desenvolvimento" height="80px" width="80px" />
-        <h2>Desenvolvimento</h2>
+        <img src="./3d-printer.png" alt="Desenvolvimento" height="80px" width="80px" />
+        <h2>Desenvolvimento de jogos 2D e 3D</h2>
         <p>
-          Desenvolvo sites profissionais, blogs, portfólios, aplicativos, landing pages<p> e e-commerce.</p>  
+        Criação de jogos tridimensionais (3D) envolventes com gráficos<p> e mecânicas de gameplay inovadoras.</p>  
         </p>
       </div>
       <div className="habilidade">
-        <img src="./monitor.png" alt="Ícone de Frontend" height="80px" width="80px" />
-        <h2>Frontend</h2>
+        <img src="./adobe.png" alt="Ícone de Frontend" height="80px" width="80px" />
+        <h2>Edição de Imagens no Photoshop</h2>
         <p>
-          Com habilidades em HTML, CSS, JavaScript e frameworks front-end <p>, posso projetar e desenvolver interfaces intuitivas, otimizadas e atraentes.</p>
+          Habilidades avançadas em edição de imagens usando o Photoshop,<p>, para aprimorar a qualidade visual de projetos e recursos.</p>
         </p>
       </div>
     </div>

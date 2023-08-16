@@ -33,9 +33,6 @@ function Contato() {
               <img src="./github.png" alt="GitHub" className="icone-social" />
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
-              <img src="./instagram.png" alt="Instagram" className="icone-social" />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
               <img src="./linkedin.png" alt="LinkedIn" className="icone-social" />
             </a>
             <a href="https://wa.me/5585991931477" target="_blank" rel="noopener noreferrer">
