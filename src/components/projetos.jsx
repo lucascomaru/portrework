@@ -4,24 +4,26 @@ import { useState } from 'react';
 const Projetos = () => {
   const projects = [
     {
+      name: 'Hackathon',
+      description: 'Desenvolvi um sistema de gestão de presença para treinamentos na M. Dias Branco, automatizando o registro de funcionários e a geração de listas em Excel para o RH.',
+      website: 'https://github.com/lucascomaru/hackataon',
+      image: '/hackaton.png',
+      techs: 'React, JavaScript, HTML',
+    }
+    ,
+    {
       name: 'DjangoFlix',
       description: 'O projeto é uma criação de uma plataforma de streaming de trailers de filmes e séries, semelhante ao Netflix, desenvolvida utilizando o framework Django. Ele permite aos usuários explorarem e assistirem trailers de diferentes conteúdos.',
-      website: 'https://djangoflixbr.herokuapp.com/',
+      website: 'https://github.com/lucascomaru/djangoflix',
       image: '/Djangoflixof.png',
       techs: 'Python,HTML,CSS',
-    },
+    }
+    ,
     {
-      name: 'Quebra Cabeças',
-      description: 'Desenvolvi um jogo de quebra-cabeças com temática de animes usando React.',
-      website: 'https://piecegame-gepqeiawe-lucascomaru.vercel.app/',
-      image: '/rsz_2animes.png',
-      techs: 'React, JavaScript, HTML',
-    },
-    {
-      name: 'Secret Word',
-      description: 'O projeto é um jogo de adivinhação onde os jogadores chutam letras para adivinhar uma palavra. Se eles acertarem, eles acumulam pontos.',
-      website: 'https://secretword-mu.vercel.app/',
-      image: '/rsz_secretwooord.png',
+      name: 'Astrorm Space',
+      description: 'Desenvolvi um jogo de nave espacial disponível na Play Store, onde o jogador controla uma nave que enfrenta inimigos em queda, eliminando-os enquanto evita obstáculos.',
+      website: 'https://github.com/lucascomaru/sshooterunity',
+      image: '/ogame.jpg',
       techs: 'React, HTML, CSS',
     },
     
